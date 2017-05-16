@@ -353,8 +353,6 @@ bool TGAImage::scale(int w, int h) {
     height = h;
     return true;
 }
-
-
 void TGAImage::clear(const TGAColor &c){
     clear();
     for(int i = 0; i < width ; i++){

@@ -95,6 +95,4 @@ public:
     void clear(const TGAColor &c);
 };
 
-
 #endif //__IMAGE_H__
-

@@ -25,12 +25,8 @@ iostream
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/model.h
 vector
 -
-string
--
 geometry.h
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/geometry.h
-tgaimage.h
-/home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/tgaimage.h
 
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/tgaimage.h
 fstream
@@ -38,6 +34,10 @@ fstream
 
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/main.cpp
 vector
+-
+stdlib.h
+-
+iostream
 -
 cmath
 -
@@ -49,4 +49,10 @@ lib/geometry.h
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/geometry.h
 lib/model.h
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/model.h
+limits
+-
+cstdlib
+-
+cstdio
+-
 
