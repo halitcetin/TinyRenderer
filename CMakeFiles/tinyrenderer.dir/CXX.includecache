@@ -37,9 +37,9 @@ fstream
 -
 
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/main.cpp
-iostream
+vector
 -
-stdlib.h
+cmath
 -
 lib/tgaimage.h
 /home/profil/cetin6u/Images/Bureau/TinyRenderer/lib/tgaimage.h
