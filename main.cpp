@@ -8,7 +8,7 @@
 #include "lib/model.h"
 #include <limits>
 #include <cstdlib>
-#include<cstdio>
+#include <cstdio>
 
 
 const TGAColor white = TGAColor(255, 255, 255, 255);
@@ -76,6 +76,7 @@ void triangle(Vec2i *pts, TGAImage &image, TGAColor color) {
 }
 
 
+
 Vec3f world2screen(Vec3f v) {
     return Vec3f(int((v.x+1.)*width/2.*+.5), int((v.y+1.)*height/2.+.5), v.z);
 }
@@ -106,6 +107,7 @@ int main(int argc, char** argv) {
             coor_s[j] = Vec2i((tmp.x+1.)*width/2., (tmp.y+1.)*height/2.);
             coor_w[j] = tmp;
         }
+
         Vec3f n = cross((coor_w[2]-coor_w[0]),(coor_w[1]-coor_w[0]));
         n.normalize();
         float intensity = n*light_dir;
